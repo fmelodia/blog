@@ -284,6 +284,9 @@ a {
   color: #de4c4f;
   text-decoration: none; }
 
+a:hover {
+  color: #878787; }
+
 h1 {
   font-family: "AvenirNext-Medium";
   color: #333;
@@ -550,3 +553,45 @@ article .post .date {
 .svg-icon {
   width: 1em;
   height: 1em; }
+
+footer {
+  padding: 6em 0 4em 0;
+  text-align: center;
+  height: 100px;
+  position: absolute;
+  bottom: 0; }
+
+footer .icons {
+  font-size: 1.25em; }
+
+footer .icons a {
+  color: #de4c4f; }
+
+footer .icons a:hover {
+  color: #878787; }
+
+footer .copyright {
+  color: #de4c4f;
+  font-size: 0.8em;
+  letter-spacing: 0.225em;
+  list-style: none;
+  padding: 0;
+  text-transform: uppercase; }
+
+footer .copyright li {
+  border-left: solid 1px #de4c4f;
+  display: inline-block;
+  line-height: 1em;
+  margin-left: 1em;
+  padding-left: 1em; }
+
+footer .copyright li:first-child {
+  border-left: 0;
+  margin-left: 0;
+  padding-left: 0; }
+
+footer .copyright li a {
+  color: inherit; }
+
+footer .copyright li a:hover {
+  color: #878787; }
