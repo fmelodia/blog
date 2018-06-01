@@ -532,7 +532,8 @@ mark {
 
 img {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  image-orientation: from-image; }
 
 nav {
   padding-bottom: 1em; }
