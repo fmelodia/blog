@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="created" content="2018-05-26 14:29:01 +0200" />
-    <meta name="modified" content="2018-06-01 16:49:44 +0200" />
+    <meta name="modified" content="2018-06-02 08:53:44 +0200" />
     <meta name="tags" content="technique"/>
     <link rel="stylesheet" href="/default.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -34,6 +34,11 @@
 <ul><li>sur l’ordinateur et sur iCloud</li></ul>
 <ul><li>sur GitHub</li></ul>
 <hr>
+<p>Originellement, le répertoire dans lequel Bear cherche les fichiers <i>.bearnote</i> est situé dans mon dossier iCloud.</p>
+<p>Problème : iCloud ne permet pas de partager un dossier entre plusieurs utilisateurs. Pour régler le problème, j’ai crée un <a href="http://www.wikiwand.com/fr/Lien_symbolique">lien symbolique</a> avec <code class="code-inline">ln -s</code> dans un dossier Dropbox partagé.</p>
+<p>C’est un peu du bricolage mais ça marche. Seule précaution à prendre : fermer l’application Dropbox avant de créer le lien, la relancer ensuite.</p>
+<hr>
+<br>
 <p>Il reste quelques domaines à creuser :</p>
 <ul><li>le « look » du site : basé sur du CSS, ça dépasse un peu mes compétences.</li></ul>
 <ul><li>réussir à modifier certains comportements de <a href="https://github.com/wuusn/miyano">miyano</a>, notamment l’affichage de la date.</li></ul>

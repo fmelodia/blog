@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="created" content="2018-06-01 18:31:44 +0200" />
-    <meta name="modified" content="2018-06-01 19:21:31 +0200" />
+    <meta name="modified" content="2018-06-02 09:04:08 +0200" />
     <meta name="tags" content="technique"/>
     <link rel="stylesheet" href="/default.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -29,6 +29,21 @@
 <p>Problème (bis) : le seul navigateur qui prend en compte cette propriété CSS pour le moment, c’est Firefox.</p>
 <br>
 <p>La seule solution que j’ai trouvée pour le moment, c’est de recadrer la photo avant de l’insérer dans Bear. Par exemple en format carré.</p>
+<hr>
+<h2>Export d’une note sans photo</h2>
+<p>Dans l’application mobile, lorsqu’on veut exporter une note uniquement avec du texte, Bear l’enregistre directement en .txt.</p>
+<p>Afin que ça fonctionne avec <a href="https://github.com/wuusn/miyano">miyano</a>, la note doit être en <i>.bearnote</i>.</p>
+<p>Je vois plusieurs solutions :</p>
+<ul><li>Proposer aux développeurs de Bear d’ajouter une option pour que l’enregistrement se fasse en <i>.bearnote</i>.</li></ul>
+<ul><li>Modifier le comportement de miyano pour qu’il prenne en compte un simple fichier text (déjà formaté en markdown)</li></ul>
+<ul><li>Créer un script pour qu’a chaque ajout d’un fichier txt dans le répertoire, on crée un fichier <i>.beardown</i>. Dans ce fichier (qui est un fichier zip renommé), on trouve le fichier txt sous le nom <code class="code-inline">text.txt</code> et un <code class="code-inline">info.json</code> :</li></ul>
+<pre><code class="code-multiline highlight">{
+  "transient" : true,
+  "type" : "public.plain-text",
+  "creatorIdentifier" : "net.shinyfrog.bear",
+  "version" : 2
+}
+</code></pre>
 <br>
 <p><a href="../tag/technique/" class="hashtag">#technique</a></p>
 
