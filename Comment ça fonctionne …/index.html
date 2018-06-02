@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="created" content="2018-05-26 14:29:01 +0200"/>
-    <meta name="modified" content="2018-06-02 08:53:44 +0200"/>
+    <meta name="modified" content="2018-06-02 11:39:40 +0200"/>
     <meta name="tags" content="technique"/>
     <link rel="stylesheet" href="/default.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -37,7 +37,23 @@
 <p>Problème : iCloud ne permet pas de partager un dossier entre plusieurs utilisateurs. Pour régler le problème, j’ai crée un <a href="http://www.wikiwand.com/fr/Lien_symbolique">lien symbolique</a> avec <code class="code-inline">ln -s</code> dans un dossier Dropbox partagé.</p>
 <p>C’est un peu du bricolage mais ça marche. Seule précaution à prendre : fermer l’application Dropbox avant de créer le lien, la relancer ensuite.</p>
 <hr>
-<br>
+<p>Pour renseigner la date du post, miyano se base sur la date de création du fichier <i>.bearnote</i>. À chaque changement d’une note et donc à chaque nouvel export d’un fichier, la date se met à jour.</p>
+<p>On peut la modifier avec la commande <code class="code-inline">touch</code> :</p>
+<p><code class="code-inline">$ touch -t YYYYMMDDHHmm.SS nom_du_fichier</code></p>
+<hr>
+<p>Pour que les liens d’un post s’ouvrent dans un nouvel onglet, il faut utiliser l’argument <code class="code-inline">_blank</code> dans le lien html.</p>
+<p>Étant donné le fonctionnement de miyano, il a fallu utiliser un script JS pour convertir les liens « à la volée ».</p>
+<pre><code class="code-multiline highlight">    var links = document.links;
+    for (var i = 0, linksLength = links.length; i &lt; linksLength; i++) {
+      if (!links[i].target) {
+        if (links[i].hostname !== window.location.hostname || /\.(?!html?)([a-z]{0,3}|[a-zt]{0,4})$/.test(links[i].pathname)) {
+          links[i].target = '_blank';
+        }
+      }
+    }
+  &lt;/script&gt; 
+</code></pre>
+<hr>
 <p>Il reste quelques domaines à creuser :</p>
 <ul><li>le « look » du site : basé sur du CSS, ça dépasse un peu mes compétences.</li></ul>
 <ul><li>réussir à modifier certains comportements de <a href="https://github.com/wuusn/miyano">miyano</a>, notamment l’affichage de la date.</li></ul>
