@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ajouts et modifications</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="created" content="2018-06-02 11:53:01 +0200"/>
+    <meta name="modified" content="2018-06-02 12:29:18 +0200"/>
+    <meta name="tags" content=""/>
+    <link rel="stylesheet" href="/default.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
+  <header></header>
+  <body>
+    <main class="note-wrapper">
+      <nav>
+        <a href="/" class="fas fa-home fa-2x" style="color:#de4c4f"></a>
+        
+      </nav>
+      <article>
+        <h1>Ajouts et modifications</h1>
+<p>Il reste encore quelques trucs à faire.</p>
+<ul class='todo-list uncheck'><li><svg width="16" height="16" viewBox="0 0 16 16"><use xlink:href="#todobox-uncheck"></use></svg>Que se passe t’il quand le nombre d’entrées est important ? Trouver un moyen de créer plusieurs pages d’index.</li></ul>
+<ul class='todo-list uncheck'><li><svg width="16" height="16" viewBox="0 0 16 16"><use xlink:href="#todobox-uncheck"></use></svg>Modifier la date. Visiblement l’affichage de la date est réglée via le code de miyano </li></ul>
+<pre><code class="code-multiline highlight">def date(format=« %b %-d, %Y »)
+
+      @mod_date.strftime format
+
+    end
+</code></pre>
+<p>dans <a href="https://github.com/wuusn/miyano/blob/master/lib/miyano/post.rb">miyano/post.rb</a></p>
+<ul class='todo-list uncheck'><li><svg width="16" height="16" viewBox="0 0 16 16"><use xlink:href="#todobox-uncheck"></use></svg>Comment faire pour poster une vidéo ?</li></ul>
+<svg display="none" version=1.1 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+    <symbol id="todobox-uncheck"><g fill="none" fill-rule="evenodd">
+        <path d="M.5 12.853c0 1.462 1.185 2.647 2.647 2.647h9.706c1.462 0 2.647-1.185 2.647-2.647V3.147C15.5 1.685 14.315.5 12.853.5H3.147C1.685.5.5 1.685.5 3.147v9.706z" fill="#FFF"/>
+        <path d="M.5 12.853c0 1.462 1.185 2.647 2.647 2.647h9.706c1.462 0 2.647-1.185 2.647-2.647V3.147C15.5 1.685 14.315.5 12.853.5H3.147C1.685.5.5 1.685.5 3.147v9.706z" stroke="#B4B4B4"/></g>
+    </symbol>
+    <symbol id="todobox-checked"><g fill="none" fill-rule="evenodd">
+        <path d="M.5 12.853c0 1.462 1.185 2.647 2.647 2.647h9.706c1.462 0 2.647-1.185 2.647-2.647V3.147C15.5 1.685 14.315.5 12.853.5H3.147C1.685.5.5 1.685.5 3.147v9.706z" fill="#FFF"/>
+        <path d="M.5 12.853c0 1.462 1.185 2.647 2.647 2.647h9.706c1.462 0 2.647-1.185 2.647-2.647V3.147C15.5 1.685 14.315.5 12.853.5H3.147C1.685.5.5 1.685.5 3.147v9.706z" stroke="#B4B4B4"/>
+        <path d="M12.526 4.615L6.636 9.58l-2.482-.836c-.19-.06-.408.003-.518.15-.116.15-.106.352.026.495l2.722 2.91c.086.09.21.144.34.144h.046c.12-.013.234-.07.307-.156l6.1-7.125c.143-.166.123-.407-.046-.548-.164-.138-.435-.14-.604 0z" fill="#555"/></g></symbol>
+</defs>
+</svg>
+
+      </article>
+    </main>
+    <!-- <footer id="footer"> <div class="icons"> <script type="text/javascript"> var name = "francois"; var domain = "melodia.fr"; document.write('<a href="mailto:' + name + '@' + domain + '" class="far fa-envelope"><span class="label">
+    Mail</span></a>'); </script> </div> <div class="copyright"> <li>&copy; Mélodia</li> <li>Design: <a href="http://html5up.net">HTML5 UP</a> </li> </div> </footer> -->
+  </body>
+  <!-- Script permetant d'ajouter à la volée un argument "_blank" aux liens externes pour qu'ils s'ouvrent dans un nouvel onglet -->
+  <script type="text/javascript">
+    var links = document.links;
+    for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+      if (!links[i].target) {
+        if (links[i].hostname !== window.location.hostname || /\.(?!html?)([a-z]{0,3}|[a-zt]{0,4})$/.test(links[i].pathname)) {
+          links[i].target = '_blank';
+        }
+      }
+    }
+  </script>
+  <html>
