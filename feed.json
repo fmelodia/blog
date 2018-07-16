@@ -1,0 +1,108 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Nouvelles",
+    "description": "",
+    "home_page_url": "https://github.com/fmelodia/blog",
+    "feed_url": "https://github.com/fmelodia/blog/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "François"
+    },
+    "items": [
+        {
+            "id": "https://github.com/fmelodia/blog/balades-du-week-end-dimanche/",
+            "url": "https://github.com/fmelodia/blog/balades-du-week-end-dimanche/",
+            "title": "Balades du week-end (dimanche)",
+            "content_html": "<p>Pour ma séance de piscine, Emilie et Johann m’ont accompagnés le temps d’une petite balade.</p>\nJohann décide de lire sur le chemin …\n<p><img src=\"https://github.com/fmelodia/blog/media/posts/2/IMG_9640.jpg\" alt=\"\" width=\"2448\" height=\"3264\"> </p>\n<div class=\"gallery\" contenteditable=\"false\" data-is-empty=\"false\" data-columns=\"3\">\n<figure class=\"gallery__item\"><a href=\"https://github.com/fmelodia/blog/media/posts/2/gallery/DSCN0266.jpg\" data-size=\"2272x1704\"><img src=\"https://github.com/fmelodia/blog/media/posts/2/gallery/DSCN0266-thumbnail.jpg\" alt=\"On trouve de tout sur le chemin, même le petit canote de Dark Vador.\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">On trouve de tout sur le chemin, même le petit canote de Dark Vador.</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://github.com/fmelodia/blog/media/posts/2/gallery/DSCN0269.jpg\" data-size=\"2272x1704\"><img src=\"https://github.com/fmelodia/blog/media/posts/2/gallery/DSCN0269-thumbnail.jpg\" alt=\"Et quelques lézards …\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">Et quelques lézards …</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://github.com/fmelodia/blog/media/posts/2/gallery/DSCN0270.jpg\" data-size=\"1639x1639\"><img src=\"https://github.com/fmelodia/blog/media/posts/2/gallery/DSCN0270-thumbnail.jpg\" alt=\"Et nous voila à mi-chemin.\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">Et nous voila à mi-chemin.</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://github.com/fmelodia/blog/media/posts/2/gallery/DSCN0272.jpg\" data-size=\"2117x1586\"><img src=\"https://github.com/fmelodia/blog/media/posts/2/gallery/DSCN0272-thumbnail.jpg\" alt=\"Johann se lance dans le selfie avec les tortues.\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">Johann se lance dans le selfie avec les tortues.</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://github.com/fmelodia/blog/media/posts/2/gallery/IMG_9649.jpg\" data-size=\"2370x2370\"><img src=\"https://github.com/fmelodia/blog/media/posts/2/gallery/IMG_9649-thumbnail.jpg\" alt=\"Et à la fin, piscine pour moi et jeux pour Emilie et Johann.\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">Et à la fin, piscine pour moi et jeux pour Emilie et Johann.</figcaption>\n</figure>\n</div>\n<p> </p>",
+            "image": "https://github.com/fmelodia/blog/media/posts/2/Image-PNG.png",
+            "author": {
+                "name": "François"
+            },
+            "tags": [
+                   "Nantes",
+                   "Balade"
+            ],
+            "date_published": "2018-06-17T18:48:00+02:00",
+            "date_modified": "2018-07-09T08:20:41+02:00"
+        },
+        {
+            "id": "https://github.com/fmelodia/blog/balades-du-week-end-samedi/",
+            "url": "https://github.com/fmelodia/blog/balades-du-week-end-samedi/",
+            "title": "Balades du week-end (samedi)",
+            "content_html": "<p>Le problème des balades en ville, c’est qu’on sait quand elles commencent, mais on est jamais bien sûr de quand elles finissent …</p>\n<p>Le samedi, on est d’abord partis pour une petite balade en ville. Puis Johann a voulu aller voir l’Elephant. <br>Mais on est arrivé en plein repos de la bestiole et on a enchainé avec les trampolines de la lune.</p>\n<p><img src=\"https://github.com/fmelodia/blog/media/posts/1/IMG_9616.jpg\" alt=\"\" width=\"2448\" height=\"2448\"></p>\n<p><img src=\"https://github.com/fmelodia/blog/media/posts/1/IMG_9617.jpg\" alt=\"\" width=\"2448\" height=\"3264\"></p>\n<p>Et après quelques saut, il a bien fallu aller déjeuner. Direction le poulet-patates de la <a href=\"https://www.levoyageanantes.fr/etapes/la-cantine-du-voyage-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Cantine du Voyage</a>.<br>Sur la route, on a rencontré une vieille connaissance, Ronan et sa famille.<br>Eux-mêmes rejoignaient des amis à eux, Renaud et sa femme, un couple franco-japonais, parents de la petite Ako.<br>Et nous voila retrouvés à faire découvrir l’île de Nantes à cette petite famille et à leurs amis japonais.</p>\n<p><img src=\"https://github.com/fmelodia/blog/media/posts/1/IMG_1324.jpg\" alt=\"\" width=\"1943\" height=\"1943\"></p>\n<p>Johann s’est bien entendu avec la petite Ako, malgré quelques petites tensions liées à la fatigue.</p>\n<p class=\"msg--highlight\"><img src=\"https://github.com/fmelodia/blog/media/posts/1/IMG_9627.jpg\" alt=\"\" width=\"3171\" height=\"2376\"></p>",
+            "image": "https://github.com/fmelodia/blog/media/posts/1/IMG_1322.jpg",
+            "author": {
+                "name": "François"
+            },
+            "tags": [
+                   "Nantes",
+                   "Balade"
+            ],
+            "date_published": "2018-06-16T17:20:00+02:00",
+            "date_modified": "2018-07-09T08:20:54+02:00"
+        },
+        {
+            "id": "https://github.com/fmelodia/blog/il-fait-chaud-sur-nantes/",
+            "url": "https://github.com/fmelodia/blog/il-fait-chaud-sur-nantes/",
+            "title": "Il fait chaud sur Nantes",
+            "content_html": "<p>Aujourd’hui (après m’être levé à 6 heures pour coder un peu tout ça …), balade au château puis au <a href=\"https://www.nantes.fr/miroir\" target=\"_blank\" rel=\"noopener noreferrer\">Miroir d’eau</a>, incontournable lorsqu’il fait chaud.</p>\n<div class=\"gallery\" contenteditable=\"false\" data-is-empty=\"false\" data-columns=\"2\">\n<figure class=\"gallery__item\"><a href=\"https://github.com/fmelodia/blog/media/posts/3/gallery/fullsizeoutput_858f.jpeg\" data-size=\"2162x1297\"><img src=\"https://github.com/fmelodia/blog/media/posts/3/gallery/fullsizeoutput_858f-thumbnail.jpeg\" alt=\"On y trouve même des enterrements de vie de jeune fille … sous le regard interrogatif des enfants\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">On y trouve même des enterrements de vie de jeune fille … sous le regard interrogatif des enfants</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://github.com/fmelodia/blog/media/posts/3/gallery/IMG_1309.JPG\" data-size=\"2448x2448\"><img src=\"https://github.com/fmelodia/blog/media/posts/3/gallery/IMG_1309-thumbnail.JPG\" alt=\"Johann y patauge, court dans tous les sens et est il est quelque fois difficile de l’en faire partir\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">Johann y patauge, court dans tous les sens et est il est quelque fois difficile de l’en faire partir</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://github.com/fmelodia/blog/media/posts/3/gallery/fullsizeoutput_85cb.jpeg\" data-size=\"2448x2448\"><img src=\"https://github.com/fmelodia/blog/media/posts/3/gallery/fullsizeoutput_85cb-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://github.com/fmelodia/blog/media/posts/3/gallery/FullSizeRender.jpg\" data-size=\"2447x2448\"><img src=\"https://github.com/fmelodia/blog/media/posts/3/gallery/FullSizeRender-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n</div>\n<p>Une chaude journée qui ne pouvait se finir qu’au Brocéliande.</p>\n<div class=\"gallery\" contenteditable=\"false\" data-is-empty=\"false\" data-columns=\"2\">\n<figure class=\"gallery__item\"><a href=\"https://github.com/fmelodia/blog/media/posts/3/gallery/FullSizeRender-2.jpg\" data-size=\"2448x2448\"><img src=\"https://github.com/fmelodia/blog/media/posts/3/gallery/FullSizeRender-2-thumbnail.jpg\" alt=\"Rencontre du nouveau chat du Broceliande\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">Rencontre du nouveau chat du Broceliande</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://github.com/fmelodia/blog/media/posts/3/gallery/FullSizeRender-3.jpg\" data-size=\"1935x1936\"><img src=\"https://github.com/fmelodia/blog/media/posts/3/gallery/FullSizeRender-3-thumbnail.jpg\" alt=\"Puis assiette de frites\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">Puis assiette de frites</figcaption>\n</figure>\n</div>",
+            "image": "https://github.com/fmelodia/blog/media/posts/3/FullSizeRender.jpg",
+            "author": {
+                "name": "François"
+            },
+            "tags": [
+                   "Nantes",
+                   "Brocéliande"
+            ],
+            "date_published": "2018-06-03T19:47:00+02:00",
+            "date_modified": "2018-07-09T08:48:25+02:00"
+        },
+        {
+            "id": "https://github.com/fmelodia/blog/mardi-cest-la-greve/",
+            "url": "https://github.com/fmelodia/blog/mardi-cest-la-greve/",
+            "title": "Mardi, c&#x27;est la greve !",
+            "content_html": "<p>La maîtresse de Johann est en grève, on est donc allé tous les trois en ville.</p>\n<div class=\"gallery\" contenteditable=\"false\" data-is-empty=\"false\" data-columns=\"3\">\n<figure class=\"gallery__item\"><a href=\"https://github.com/fmelodia/blog/media/posts/4/gallery/IMG_9525.JPG\" data-size=\"2448x3264\"><img src=\"https://github.com/fmelodia/blog/media/posts/4/gallery/IMG_9525-thumbnail.JPG\" alt=\"\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">Premier bain au miroir d’eau de l’année</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://github.com/fmelodia/blog/media/posts/4/gallery/FullSizeRender-2.jpg\" data-size=\"2486x1818\"><img src=\"https://github.com/fmelodia/blog/media/posts/4/gallery/FullSizeRender-2-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">Même les canards veulent profiter de l’eau</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://github.com/fmelodia/blog/media/posts/4/gallery/FullSizeRender.jpg\" data-size=\"2941x2205\"><img src=\"https://github.com/fmelodia/blog/media/posts/4/gallery/FullSizeRender-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">Pose devant le château</figcaption>\n</figure>\n</div>",
+            "image": "https://github.com/fmelodia/blog/media/posts/4/FullSizeRender-2.jpg",
+            "author": {
+                "name": "Emilie"
+            },
+            "tags": [
+                   "Nantes",
+                   "Balade"
+            ],
+            "date_published": "2018-06-03T18:57:00+02:00",
+            "date_modified": "2018-07-09T11:00:45+02:00"
+        },
+        {
+            "id": "https://github.com/fmelodia/blog/Pizza/",
+            "url": "https://github.com/fmelodia/blog/Pizza/",
+            "title": "Pizza",
+            "content_html": "<p class=\"p1\"><span class=\"s1\">Aujourd’hui, on a pu essayer un nouveau resto du quartier. Pizzas à la part, des petits nouveaux. Ça sentait encore la peinture.</span></p>\n<p class=\"p2\"><span style=\"font-size: inherit;\"><img src=\"https://github.com/fmelodia/blog/media/posts/5/UNADJUSTEDNONRAW_thumb_8236.jpg\" alt=\"\" width=\"1024\" height=\"1024\"></span></p>\n<p class=\"p2\"><span style=\"font-size: inherit;\">4 € la part, c’est pas déconant. Un endroit à garder en tête pour les fins de soirée, c’est quand même plus sympa qu’un kebab.</span></p>\n<p class=\"p3\"> </p>\n<blockquote>\n<p class=\"p1\"><span class=\"s1\"><a href=\"http://www.fraisdispo.fr\"><i>Frais et Disp</i><span class=\"s2\"><i>o</i></span></a></span></p>\n<p class=\"p1\"><span class=\"s1\"><i>45 Rue Maréchal Joffre, 44000 Nantes</i></span></p>\n<p class=\"p1\"><span class=\"s1\"><i>Ouvert le soir de </i><strong>18h</strong><i> à </i><strong>22h</strong><i> (et en journée de 11h30 à 14h)</i></span></p>\n</blockquote>",
+            "image": "https://github.com/fmelodia/blog/media/posts/5/IMG_1292.JPG",
+            "author": {
+                "name": "François"
+            },
+            "tags": [
+                   "Resto",
+                   "Nantes"
+            ],
+            "date_published": "2018-06-02T12:50:00+02:00",
+            "date_modified": "2018-07-09T11:01:49+02:00"
+        },
+        {
+            "id": "https://github.com/fmelodia/blog/Tentative-de-sieste-et-decouvertes-BD/",
+            "url": "https://github.com/fmelodia/blog/Tentative-de-sieste-et-decouvertes-BD/",
+            "title": "Tentative de sieste et découvertes BD",
+            "content_html": "<p>Il est quelque fois difficile de convaincre Johann de se poser pour une petite sieste. Alors il faut accepter qu’il emprunte une bd de Gaston et qu’il rigole dans son coin.</p>\n<p><img src=\"https://github.com/fmelodia/blog/media/posts/6/IMG_1306.JPG\" alt=\"\" width=\"2448\" height=\"2448\"></p>\n<p>Et tout ça sous l’œil <span style=\"text-decoration: line-through;\">presque pas stressé</span> de son papa !<br><br>C’est décidé, je me lance dans la collection des recueils du Journal de Spirou !</p>",
+            "image": "https://github.com/fmelodia/blog/media/posts/6/",
+            "author": {
+                "name": "François"
+            },
+            "tags": [
+                   "Johann"
+            ],
+            "date_published": "2018-06-01T16:08:00+02:00",
+            "date_modified": "2018-07-09T09:14:02+02:00"
+        }
+    ]
+}
